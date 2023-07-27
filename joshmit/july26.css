@@ -1,0 +1,103 @@
+
+	
+
+body{
+	margin: 0 auto;
+	background: yellow;
+	height: 200vh;
+}
+.ja{
+	display: flex ;
+/*	justify-content: center*/
+	width: 100%;
+	overflow: hidden;
+	align-items: center;
+}
+.one{
+	width: 30%;
+	height: 70vh;
+	box-shadow:rgba(72, 92, 119,0.8)0px 5px 20px;
+	border-radius: 200px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin: 2% ;
+	align-items: center;
+	padding: 1%;
+	box-sizing: border-box;
+	animation: slide 5s infinite alternate-reverse;
+}
+@keyframes slide{
+	from{
+		transform: translateX(0%);
+	}
+	10%{
+		transform: translateX(0%);
+	}
+	25%{
+		transform: translateX(-100%);
+	}
+	50%{
+		transform: translateX(-200%);
+	}
+	to{
+		transform: translateX(-300%);
+	}
+}
+img{
+	width: 200px;
+	height: 35vh;
+	border-radius: 200px;
+	
+}
+span{
+	font-family: poppins;
+	font-size: 20px;
+	color: darkred;
+	font-weight: bolder;
+
+}
+p{
+	font-family:poppins ;
+	font-size: 15px;
+	color: grey;
+	padding: 25px;
+	text-align: center;
+}
+.bu{
+	width: 100%;
+	height: 120vh;
+	background: blue;
+}
+.ac{
+	width: 50%;
+	height: 60vh;
+	background: purple;
+}
+p{
+	font-family: poppins;
+	font-size: 25px;
+	font-weight: bolder;
+	color: black;
+}
+.no{
+	width: 50%;
+	height: 30vh;
+	background: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pa{
+	width: 35%;
+	height: 20vh;
+
+}
+.no p{
+
+	font-family: poppins;
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+
+}
